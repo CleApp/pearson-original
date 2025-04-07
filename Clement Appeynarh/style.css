@@ -66,6 +66,15 @@ section h5{
     text-decoration: underline;
 
 }
+.hot{
+    height: 1500px;
+    background: transparent;
+}
+.hot h3{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
 .con{
     margin-top: 40px;
 
@@ -82,11 +91,38 @@ section h5{
     text-decoration: underline;
 }
 footer{
-    height: 300px;
+    height: 560px;
     background-color:rgb(75, 4, 4);
     color:white;
     text-align: center;
     border-radius: 0px 160px 0px;
+
+}
+footer i{
+   font-size: 50px;
+   margin: 15px;   
+   color: black;
+}
+footer h5{
+    font-size: 28px;
+}
+.fi{
+    display: flex;
+    padding: 50px;  
+   padding-left: 240px;
+}
+.lov{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+.lov h6{
+    font-size: 30px;
+
+}
+.lov li{
+    font-size: larger;
+    margin-top: 40px;
 }
 .cot{
     display: flex;
@@ -106,21 +142,32 @@ footer{
 {
     .first{
         flex:calc(100%/1);
-        max-width: 100px;
-    }
+        max-width: 100;}
+    /* nav ul{
+            display: none;
+        } */
+    
+    
+
 } 
 @media screen and (min-width: 301px) {
     .first{
         flex:calc(100%/2);
         max-width: 100%;
     }
-    
+    /* nav ul{
+        display: none;
+    } */
 }
 @media screen and (min-width: 800px) {
     .first{
         flex:calc(100%/3);
         max-width: 100%;
-    }
+     }
+    /* nav ul{
+        display: none;
+
+     }  */
     
 }
 @media screen and (min-width: 1024px) {
@@ -128,8 +175,12 @@ footer{
         flex:calc(100%/4);
         max-width: 100%;
     }
+    /* nav ul{
+        display: none;
+     } */
     
 }
+
 
 
 
