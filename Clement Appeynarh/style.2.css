@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.567), rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.6)), url("boti.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  /* Hover Effect on Links */
+nav ul li a:hover {
+    color: rgb(255, 215, 0); /* Change to a golden color when hovered */
+
+
+}
+
+/* Hamburger Styles */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburger.active {
+    transform: rotate(90deg); /* Rotate hamburger when active */
+}
+
+/* Nav Links */
+#nav-links {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* On small screens, hide the nav links initially */
+@media screen and (max-width: 768px) {
+    /* Hide the navigation links on small screens */
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    /* Show the hamburger menu on small screens */
+    .hamburger {
+        display: block;
+    }
+
+    /* When the menu is active, show the navigation links */
+    #nav-links.active {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0); /* Slide down effect */
+    }
+}
+  header {
+    background-color: rgb(75, 17, 17);
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 34px;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  #nav-links {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Hide the navigation links on small screens */
+    #nav-links {
+      display: none;
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+    }
+  
+    /* Show the hamburger menu on small screens */
+    .hamburger {
+      display: block;
+    }
+  
+    /* When the menu is active, show the navigation links */
+    #nav-links.active {
+      display: flex;
+    }
+  }
+  main{
+    height: 500px;
+  }
+  
+  main h1 {
+    text-align: center;
+    margin: 200px 20px 50px;
+    font-size: 48px;
+    color: white;
+  }
+  
+  section {
+    background-color: black;
+    padding: 40px 20px;
+  }
+  
+  section h2, .con h5, .con h6, .hot h3, footer h5 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .con p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .hot {
+    padding: 40px 20px;
+    background: transparent;
+  }
+  
+  .cot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .first {
+    flex: 1 1 250px;
+    max-width: 300px;
+  }
+  
+  .first img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: rgb(75, 4, 4);
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 0 160px 0 0;
+    margin-top: 60px;
+  }
+  
+  .fi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .lov {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  footer i {
+    font-size: 30px;
+    margin: 10px;
+    color: black;
+  }
+  
+  .lov h6 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .lov li {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries */
+  
+  /* Mobile devices */
+  @media screen and (max-width: 768px) {
+    .logo {
+      font-size: 28px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    nav ul li a {
+      padding: 15px;
+      font-size: 18px;
+    }
+  
+    main h1 {
+      font-size: 36px;
+      margin-top: 50px;
+    }
+  
+    section h2, .con h5, .con h6, .hot h3, footer h5 {
+      font-size: 28px;
+    }
+  
+    .con p {
+      font-size: 18px;
+    }
+  
+    .first {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    footer i {
+      font-size: 25px;
+    }
+  
+    .lov {
+      max-width: 90%;
+    }
+  }
+  
+  /* Tablets and small screens */
+  @media screen and (max-width: 1024px) {
+    .logo {
+      font-size: 30px;
+    }
+  
+    nav ul {
+      gap: 20px;
+    }
+  
+    nav ul li a {
+      padding: 20px;
+      font-size: 22px;
+    }
+  
+    main h1 {
+      font-size: 40px;
+    }
+  
+    section h2, .con h5, .con h6, .hot h3, footer h5 {
+      font-size: 30px;
+    }
+  
+    .first {
+      flex: 1 1 45%;
+    }
+  
+    .fi {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .lov {
+      max-width: 100%;
+    }
+  }
+  
+  /* Desktop devices */
+  @media screen and (min-width: 1024px) {
+    .logo {
+      font-size: 34px;
+    }
+  
+    nav ul {
+      gap: 40px;
+    }
+  
+    nav ul li a {
+      padding: 30px;
+      font-size: 26px;
+    }
+  
+    main h1 {
+      font-size: 48px;
+    }
+  
+    section h2, .con h5, .con h6, .hot h3, footer h5 {
+      font-size: 32px;
+    }
+  
+    .first {
+      flex: 1 1 23%;
+      max-width: 25%;
+    }
+  
+    footer i {
+      font-size: 30px;
+    }
+  
+    .lov {
+      max-width: 300px;
+    }
+  }
+  
+  
