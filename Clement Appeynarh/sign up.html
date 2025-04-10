@@ -194,7 +194,7 @@ footer h5{
 </footer>
 </body>
 </html> -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -401,5 +401,272 @@ footer h5{
  &copy;clement appeynarh
 </footer>
 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.adukrom.gh</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <header>
+            <nav>
+              <div class="nav-container">
+                <div class="logo">BTECH LEVEL 3 , CREATIVE MEDIA</div>
+                <div class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-links">
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="#about">story</a></li>
+                  <li><a href="#history">history</a></li>
+                  <li><a href="#gallery">gallery</a></li>
+                  <li><a href="#contact">contact us</a></li>
+                  <li><a href="sign-up.html">sign up</a></li>
+                </ul>
+              </div>
+            </nav>
+            
+          </header>
+
+    <div class="sign">
+        <h3>Book An Appointment</h3>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name"><br>
+            <label for="gender">Gender</label>
+            <input type="text" id="gender" placeholder="Gender"><br>
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Country"><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob"><br>
+            <label for="arrival">Date of Arrival</label>
+            <input type="date" id="arrival"><br>
+            <label for="departure">Date of Departure</label>
+            <input type="date" id="departure"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <h5 id="contact">CONTACT US</h5>
+        <div class="fi">
+            <div class="lov">
+                <h6>Services</h6>
+                <ul>
+                    <li>Local And Continental Dishes</li>
+                    <li>House cleaning</li>
+                    <li>Transport</li>
+                    <li>Entertainment</li>
+                    <li>Accommodation</li>
+                </ul>
+            </div>
+            <div class="lov">
+                <h6>Recommendations</h6>
+                <ul>
+                    <li>Odwira Jams</li>
+                    <li>Safari Resort</li>
+                    <li>Okomfo Anokye's House</li>
+                    <li>Jamaica Village</li>
+                    <li>Awukugua Place</li>
+                </ul>
+            </div>
+            <div class="lov">
+                <h6>Contact</h6>
+                <i class="fa-brands fa-square-instagram"></i><p>Adukrom507 Ghana</p><br>
+                <i class="fa-brands fa-facebook"></i><p>Adukrom Ghana</p><br>
+                <i class="fa-brands fa-twitter"></i><p>Adukrom GH</p><br>
+            </div>
+        </div>
+        <p>&copy; Clement Appeynarh</p>
+    </footer>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        
+        body {
+            text-align: left;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.567), rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0.6)), url(boti.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            backdrop-filter: blur(12px);
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: rgb(75, 17, 17);
+            height: 200px;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 34px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 40px;
+            padding-left: 240px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 26px;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            color: gold;
+            border-bottom: 2px solid gold;
+            transition: 0.3s ease-in-out;
+        }
+
+        .sign {
+            margin: 30px;
+            margin-left: 25%;
+            border: 1px solid black;
+            width: 50%;
+            padding: 40px;
+            border-radius: 30px;
+            background-color: rgba(95, 27, 27, 0.541);
+        }
+
+        .sign h3 {
+            font-size: 39px;
+        }
+
+        input {
+            height: 40px;
+            width: 100%;
+            border-radius: 20px;
+            margin: 15px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        label {
+            font-size: 30px;
+        }
+
+        button {
+            font-size: 35px;
+            width: 100%;
+            padding: 10px;
+            margin: 4%;
+            margin-left: 0;
+            border-radius: 39px;
+            background-color: white;
+        }
+
+        footer {
+            height: 560px;
+            background-color: rgb(75, 4, 4);
+            color: white;
+            text-align: center;
+            border-radius: 0px 160px 0px;
+        }
+
+        footer i {
+            font-size: 50px;
+            margin: 15px;
+            color: black;
+        }
+
+        footer h5 {
+            font-size: 28px;
+        }
+
+        .fi {
+            display: flex;
+            padding: 50px;
+            padding-left: 240px;
+        }
+
+        .lov {
+            width: 300px;
+            height: 400px;
+            margin: 20px;
+        }
+
+        .lov h6 {
+            font-size: 30px;
+        }
+
+        .lov li {
+            font-size: larger;
+            margin-top: 40px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                padding-left: 0;
+            }
+
+            .sign {
+                margin-left: 5%;
+                width: 90%;
+            }
+
+            .fi {
+                padding-left: 10px;
+                flex-direction: column;
+            }
+
+            .lov {
+                width: 100%;
+            }
+
+            .fi div {
+                margin-bottom: 20px;
+            }
+            footer {
+                font-size: 20px;
+                padding-bottom: 20px;
+                height: 1500px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul {
+                font-size: 20px;
+            }
+
+            .sign {
+                width: 100%;
+                margin-left: 0;
+                padding: 20px;
+            }
+
+            footer {
+                font-size: 20px;
+                padding-bottom: 20px;
+            }
+        }
+    </style>
 </body>
 </html>
