@@ -18,6 +18,8 @@
   /* Hover Effect on Links */
 nav ul li a:hover {
     color: rgb(255, 215, 0); /* Change to a golden color when hovered */
+        border-bottom: 2px solid gold;
+    transition: 0.3s ease-in-out;
 
 
 }
